@@ -1,0 +1,20 @@
+{
+  "name": "@test/uncompiled-dependencies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "source": true,
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": [
+    "ie 11"
+  ],
+  "dependencies": {
+    "micromodal": "^0.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2"
+  }
+}

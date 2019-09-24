@@ -1,0 +1,24 @@
+{
+  "name": "@test/front-end",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": [
+    "ie 11"
+  ],
+  "scripts": {
+    "start": "parcel index.js",
+    "build": "parcel build index.js"
+  },
+  "dependencies": {
+    "@test/uncompiled-dependencies": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "parcel-bundler": "^1.12.3"
+  }
+}

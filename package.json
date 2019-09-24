@@ -1,0 +1,13 @@
+{
+  "name": "parcel-issue-min-repo",
+  "workspaces": [
+    "front-end",
+    "uncompiled-dependencies"
+  ],
+  "scripts": {
+    "start": "yarn workspace @test/front-end start",
+    "build": "yarn workspace @test/front-end build"
+  },
+  "private": true,
+  "devDependencies": {}
+}
